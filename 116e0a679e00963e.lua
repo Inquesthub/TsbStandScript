@@ -1,6 +1,6 @@
 
 
-loadstring(game:HttpGet('https://pastebin.com/raw/FUPBRUuY'))()('Stand Script', 'By 1.7s903', 'Text Here', 'Text Here', '14286492315', true, false, false, 20, function() end, function() end)
+loadstring(game:HttpGet('https://pastebin.com/raw/FUPBRUuY'))()('Stand Script', 'By Inquestor420', 'Text Here', 'Text Here', '14286492315', true, false, false, 20, function() end, function() end)
 
 local _Highlight = Instance.new('Highlight')
 local _ForceField = Instance.new('ForceField')
