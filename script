@@ -1,0 +1,60 @@
+--<< TSB Stand Script >>
+
+--[[
+ Credits
+ ▸ Script Developer: 1.7s903
+ ▸ Helper: carnage.9
+]]
+
+getgenv().Settings = {
+
+    -- Player Settings
+    player = {
+        targetPlayerName = "StandOwnerName", -- Stand owner username
+    },
+
+    -- Animation Settings
+    animation = {
+        standAnimId = "rbxassetid://17124061663", -- Idle animation
+        isStandActive = true,
+    },
+
+    -- Move Names
+    moves = {
+        Move1 = "Attack",
+        Move2 = "Barrage",
+        Move3 = "Rush",
+        Move4 = "Crush",
+        PassiveKey = Enum.KeyCode.E,
+    },
+
+    -- Combat Settings
+    combat = {
+        attackFollowDuration = 1.8,
+        followDistance = 2,
+    },
+
+    -- Messages On Moves (Random)
+    messages = {
+        zaWarudoMessages = {
+            "Za Warudo, time has stopped",
+            "Za Warudo!!",
+            "I reject my humanity!",
+            "The world is mine!",
+            "You are already dead",
+            "WRYYYY!",
+            "No one can escape the world's grasp",
+            "Time bends to my will",
+            "Your fate is sealed",
+            "The power of the world is absolute",
+            "You stand no chance against Za Warudo",
+            "Prepare yourself for destruction",
+            "Obey the power of Dio",
+            "I will crush you with speed",
+            "Feel the wrath of Dio's speed",
+            "MUDA MUDA MUDA!!!"
+        }
+    }
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Inquesthub/TsbStandScript/refs/heads/main/Script.lua"))()
