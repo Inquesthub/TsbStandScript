@@ -1,4 +1,4 @@
--- ts file was generated at discord.gg/25ms
+
 
 loadstring(game:HttpGet('https://pastebin.com/raw/FUPBRUuY'))()('Stand Script', 'By 1.7s903', 'Text Here', 'Text Here', '14286492315', true, false, false, 20, function() end, function() end)
 
